@@ -1,6 +1,6 @@
 # Scripts to delete tweets, unretweet reposts, and remove likes
 
-Based on [Uzay's answer to a question on Stackoverflow](hhttps://stackoverflow.com/questions/64863099/deleting-tweets-with-js-console)
+Based on [Uzay's answer to a question on Stackoverflow](https://stackoverflow.com/questions/64863099/deleting-tweets-with-js-console)
 
 To best use the scripts, go to your profile on a computer and run the script via
 the Developer console.
