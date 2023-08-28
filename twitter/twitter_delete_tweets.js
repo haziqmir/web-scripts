@@ -1,6 +1,6 @@
 var delete_tweets = function () {
     window.scrollBy(0, 10000);
-    document.querySelectorAll('[aria-label="More"]').forEach(function 
+    document.querySelectorAll('[aria-label^="Timeline"][aria-label$="posts"] [aria-label="More"]').forEach(function 
     (v) {
         v.click();
         document.querySelectorAll('span').forEach(function (v2) {
@@ -15,6 +15,6 @@ var delete_tweets = function () {
             }
         });
     });
-    setTimeout(delete_tweets, 10000);
+    setTimeout(delete_tweets, 5000);
 }
 delete_tweets();
